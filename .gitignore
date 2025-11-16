@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+build/
+dist/
+__pycache__/
+*.spec
+*.exe
+*.deb
+*.msi
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
