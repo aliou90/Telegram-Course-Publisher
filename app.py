@@ -150,7 +150,7 @@ class TelegramWorker(QThread):
 class BookUploader(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Telegram Courses Publisher")
+        self.setWindowTitle("Telegram Course Publisher")
         self.resize(1200, 700)
         self.api_keys = load_api_keys()
         self.books_dir = ""
